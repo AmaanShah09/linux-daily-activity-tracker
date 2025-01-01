@@ -40,7 +40,7 @@ generate_report() {
 
 # Set up cron job for daily report at 6 PM
 setup_cron() {
-    (crontab -l 2>/dev/null | grep -v "$PWD/daily.sh report"; echo "0 18 * * * $PWD/daily.sh report") | crontab -
+    (crontab -l 2>/dev/null | grep -v "$PWD/daily_activity_tracker.sh report"; echo "0 18 * * * $PWD/daily_activity_tracker.sh report") | crontab -
     echo "✅ Daily report scheduled for 6 PM"
 }
 
