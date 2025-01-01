@@ -7,7 +7,7 @@ Track activities with category and description.
 Generate a daily report grouped by categories.
 Automate daily report generation at 6 PM via cron.
 
-##Usage: - 
+Usage: - 
 
 Track Activity:
 ./daily.sh track "category" "description"
