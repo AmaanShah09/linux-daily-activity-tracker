@@ -9,7 +9,7 @@ Automate daily report generation at 6 PM via cron.
 Usage: - 
 
 Track Activity:
-./daily.sh track <category> <description>
+./daily.sh track "<category>" "<description>"
 
 Generate Report:
 ./daily.sh report
