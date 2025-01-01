@@ -1,2 +1,17 @@
 # linux-daily-activity-tracker
-This shell script tracks daily activities by logging them with a timestamp, category, and description. It generates a daily report grouped by activity categories and includes a summary of the day's activities. The script also sets up a cron job to automatically generate a report at 6 PM every day.
+Daily Activity Tracker
+A simple shell script to track daily activities and generate reports.
+
+Features
+Track activities with category and description.
+Generate a daily report grouped by categories.
+Automate daily report generation at 6 PM via cron.
+Usage
+Track Activity:
+./daily.sh track <category> <description>
+
+Generate Report:
+./daily.sh report
+
+Set up Cron Job:
+./daily.sh setup
