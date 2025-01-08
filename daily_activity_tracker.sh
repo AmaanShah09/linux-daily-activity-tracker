@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Configuration
+# Configurations
 DATA_DIR="$HOME/.daily-tracker"
 LOG_FILE="$DATA_DIR/activities.log"
 mkdir -p "$DATA_DIR"
